@@ -2,7 +2,6 @@
 #include <ArduinoUniqueID.h>
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
-#include <DHT.h>
 
 #include "ItemhubUtilities/ItemhubUtilities.h"
 #include "ItemhubUtilities/Certs.h"
