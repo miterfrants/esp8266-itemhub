@@ -117,9 +117,8 @@ void loop()
       std::string mode = pins[i].mode;
       if (mode == SENSOR)
       {
-        int value = digitalRead(pins[i].pin);
         float h = dht.readHumidity();
-        std::string valueString = std::to_string(value);
+        std::string valueString = std::to_string(h);
         pins[i].value = valueString;
       }
     }
